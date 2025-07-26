@@ -17,7 +17,8 @@ module.exports = {
     },
     hardhat: {
       forking: {
-        url: POLYGON_RPC_URL
+        url: POLYGON_RPC_URL,
+        accounts: [PRIVATE_KEY],
       }
     }
   }
